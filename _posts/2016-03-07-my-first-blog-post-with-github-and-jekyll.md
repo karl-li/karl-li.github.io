@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web Dev easier than ever, Karl with a K can even do it"
+title: "Web Dev easier than ever, even Karl with a K can even do it"
 date: 2016-03-07
 ---
 
