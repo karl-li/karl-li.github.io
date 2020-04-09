@@ -1,0 +1,369 @@
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Additional fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Sky Cafe Philly: A Taste of Indonesia</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-light">
+        <span style="font-size:40px;cursor:pointer" onclick="window.openNav()">&#9776;</span>
+        <a href="index.html" class="navbar-brand">
+            <img src="assets/img/logo.svg" height="40" width="40" class="skycafe-logo"/>
+        </a>
+    </nav>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="window.closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a class="nav-link" href="#menu" onclick="window.closeNav()">Menu</a>
+            <a class="nav-link" href="#about" onclick="window.closeNav()">About</a>
+            <a class="nav-link" href="#photos" onclick="window.closeNav()">Photos</a>
+            <a class="nav-link" href="#reviews" onclick="window.closeNav()">Reviews</a>
+            <a class="nav-link" href="#location" onclick="window.closeNav()">Location</a>
+            <a class="nav-link" href="#hours" onclick="window.closeNav()">Hours</a>
+            <a class="nav-link" href="#contact" onclick="window.closeNav()">Contact</a>
+            <a class="nav-link" href="#social" onclick="window.closeNav()">Social</a>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="hero-img">
+            <!-- <img src="assets/img/Hero.png" class="img-fluid mx-auto text-center" alt="Sky Cafe Spread"> -->
+            <div class="hero-text">
+                <h1>Sky Cafe</h1>
+                <h3>A TASTE OF INDONESIA</h2>
+                <p>1122 Washington Ave
+                <br>
+                Philadelphia, PA 19147
+                <br>
+                215) 271-1983</p>
+            </div>
+    </div>
+    <!-- Menu Section -->
+    <div class="section menu" id="menu">
+        <h2>Menu</h2>
+        <!-- Menu Tabs -->
+        <ul id="tabs" class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" href="#appetizers" role="tab" data-toggle="tab" aria-controls="appetizers" aria-selected="true">APPETIZERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#beverages" role="tab" data-toggle="tab" aria-controls="beverages" aria-selected="false">BEVERAGES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#side-orders" role="tab" data-toggle="tab" aria-controls="side-orders" aria-selected="false">SIDE ORDERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#noodles" role="tab" data-toggle="tab" aria-controls="noodles" aria-selected="false">NOODLES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#rice-dishes" role="tab" data-toggle="tab" aria-controls="rice-dishes" aria-selected="false">RICE DISHES</a>
+              </li>
+        </ul>
+        <!-- Menu Tab Content for Desktop -->
+        <div class="tab-content hide-mobile">
+            <div role="tabpanel" class="tab-pane show active" id="appetizers">
+                <div class="row">
+                    <div class="column">
+                        <p>House Style Salad</p>
+                        <p>$6.50</p>
+                    </div>
+                    <div class="column">
+                        <p>Wonton Soup</p>
+                        <p>$3.50</p>
+                    </div>
+                    <div class="column">
+                        <p>Spring Roll</p>
+                        <p>$3.50</p>
+                    </div>
+                    <div class="column">
+                        <p>Chicken Wing</p>
+                        <p>$5.00</p>
+                    </div>
+                    <div class="column">
+                        <p>Fried Wonton</p>
+                        <p>$3.50</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <p>Satay Padang Beef</p>
+                        <p>$7.50</p>
+                    </div>
+                    <div class="column">
+                        <p>Satay Pork or Chicken</p>
+                        <p>$7.00</p>
+                    </div>
+                    <div class="column">
+                        <p>Lamb Satay</p>
+                        <p>$8.00</p>
+                    </div>
+                    <div class="column">
+                        <p>Batagor</p>
+                        <p>$7.00</p>
+                    </div>
+                    <div class="column">
+                        <p>Gado Gado</p>
+                        <p>$7.50</p>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="beverages">
+                <div class="row">
+                    <div class="column"><p>Soda</p><p>$1.50</p></div>
+                    <div class="column"><p>Lemonade</p><p>$2.50</p></div>
+                    <div class="column"><p>Coconut Juice</p><p>$3.00</p></div>
+                    <div class="column"><p>Passion Fruit Juice</p><p>$2.50</p></div>
+                    <div class="column"><p>Es Teler</p><p>$4.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>Avocado Juice</p><p>$4.50</p></div>
+                    <div class="column"><p>Soda Gembria</p><p>$2.50</p></div>
+                    <div class="column"><p>Soursop Juice</p><p>$4.50</p></div>
+                    <div class="column"><p>Durian Juice</p><p>$6.00</p></div>
+                    <div class="column"><p>Es Cendol</p><p>$4.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>The Kotak</p><p>$1.50</p></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="side-orders">
+                <div class="row">
+                    <div class="column"><p>White Rice</p><p>$1.50</p></div>
+                    <div class="column"><p>Coconut Rice</p><p>$2.00</p></div>
+                    <div class="column"><p>Fried Tempe</p><p>$3.00</p></div>
+                    <div class="column"><p>Petai Beans</p><p>$4.00</p></div>
+                    <div class="column"><p>Sambal</p><p>$1.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>Fried Tofu</p><p>$2.00</p></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="noodles">
+                <div class="row">
+                    <div class="column"><p>N1. Mie Komplit</p><p>$7.50</p></div>
+                    <div class="column"><p>N2. Mie Seafood</p><p>$7.50</p></div>
+                    <div class="column"><p>N3. Mie Kepiting</p><p>$8.00</p></div>
+                    <div class="column"><p>N4. Mie Bbq Pork</p><p>$6.50</p></div>
+                    <div class="column"><p>N5. Mie Ayam</p><p>$6.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>N6. Mie Bakso</p><p>$6.50</p></div>
+                    <div class="column"><p>N7. Kwetiaw Goreng</p><p>$8.00</p></div>
+                    <div class="column"><p>N8. Bihun Goreng</p><p>$8.00</p></div>
+                    <div class="column"><p>N9. Mie Goreng</p><p>$8.00</p></div>
+                    <div class="column"><p>N10. Mie Belacan</p><p>$8.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>N11. Kari Bihun</p><p>$8.00</p></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="rice-dishes">
+                <div class="row">
+                    <div class="column"><p>R1. Nasi Lemak Ayam Goreng</p><p>$7.50</p></div>
+                    <div class="column"><p>R2. Nasi Lemak Rendang</p><p>$7.50</p></div>
+                    <div class="column"><p>R3. Nasi Uduk</p><p>$8.00</p></div>
+                    <div class="column"><p>R4. Nasi Goreng Special</p><p>$6.50</p></div>
+                    <div class="column"><p>R5. Nasi Goreng Seafood</p><p>$6.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>R6. Nasi Goreng Ikan Asin</p><p>$6.50</p></div>
+                    <div class="column"><p>R7. Nasi Goreng Petai</p><p>$8.00</p></div>
+                    <div class="column"><p>R8. Nasi Sayur</p><p>$8.00</p></div>
+                    <div class="column"><p>R9. Lontong Sayur</p><p>$8.00</p></div>
+                    <div class="column"><p>R10. Nasi Pecel Lele</p><p>$8.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>R11. Nasi Pecel Ayam Goreng</p><p>$6.50</p></div>
+                    <div class="column"><p>R12. Nasi Ayam Sambal Hijau</p><p>$8.00</p></div>
+                    <div class="column"><p>R13. Nasi Ikan Balado</p><p>$8.00</p></div>
+                    <div class="column"><p>R14. Soto Medan</p><p>$8.00</p></div>
+                    <div class="column"><p>R15. Nasi Urap</p><p>$8.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>R16. Nasi Campur Medan</p><p>$6.50</p></div>
+                    <div class="column"><p>R17. Nasi Campur Ayam Goreng</p><p>$8.00</p></div>
+                    <div class="column"><p>R18. Nasi Campur Rendang</p><p>$8.00</p></div>
+                    <div class="column"><p>R19. Nasi Ayam Bakar Padang</p><p>$8.00</p></div>
+                    <div class="column"><p>R20. Sop Buntut/Oxtail Soup</p><p>$8.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>R21. Fish of the Day</p><p>MP</p></div>
+                    <div class="column"><p>R22. Original Nasi Padang</p><p>$8.00</p></div>
+                    <div class="column"><p>R23. Nasi Bungkus</p><p>$8.00</p></div>
+                    <div class="column"><p>R24. Soto Betawi</p><p>$8.00</p></div>
+                    <div class="column"><p>R25. Nasi Ayam Bakar Kecap</p><p>$8.50</p></div>
+                </div>
+                <div class="row">
+                    <div class="column"><p>R26. Marinated Bbq Beef Ribs</p><p>$10.50</p></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"></div>
+    <!-- /Bootstrap <a href="https://www.jqueryscript.net/accordion/">Accordion</a> -->
+    </div>
+    <!-- About Section -->
+    <div class="section about" id="about">
+        <h2>About</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="assets/img/owners.png" class="owner-img img-fluid" alt="Sky Cafe owners Betty Yu and her mother Lily Tjia">
+            </div>
+            <div class="col-lg-6">
+                <p class="owner-text">Sky Cafe, is one of Philly’s oldest Indonesian establishments and a fixture of South Philly’s  diverse neighborhood. 
+                <br>
+                <br>
+                It has been owned and operated by chef Lily Tjia, her charming daughter, Betty Yu, and Yu's husband, Anto Lys since 2010.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Photos Section -->
+    <div class="section photos" id="photos">
+        <h2>Photos</h2>
+        <div class="row">
+            <div class="col"><img src="assets/img/Photo 1.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 2.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 3.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 4.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 5.png" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col"><img src="assets/img/Photo 6.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 7.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 8.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 9.png" alt=""></div>
+            <div class="col"><img src="assets/img/Photo 10.png" alt=""></div>
+        </div>
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> -->
+    </div>
+    <!-- Reviews Section -->
+    <div class="section reviews" id="reviews">
+        <h2>Reviews</h2>
+        <p>“At $7.50 a platter, it's hard to beat for flavors with this kind of pop and personality!”</p>
+        <img class="philly-inquirer-logo" src="assets/img/philly-inquirer-logo.svg" alt="">
+    </div>
+    <!-- Location Section -->
+    <div class="section location" id="location">
+        <h2>Location</h2>
+        <p>1122 Washington Ave
+        <br>
+        Philadelphia, PA 19147
+        <br>
+        (215) 271-1983</p>
+    </div>
+    <!-- Google Map -->
+    <div id="map"></div>
+    <!-- Hours Section -->
+    <div class="section hours" id="hours">
+        <h2>Hours</h2>
+        <p>Open everyday from 11am to 8pm. Closed on Thursdays. Closed at 9pm on Saturdays.</p>
+    </div>
+    <!-- Contact Section -->
+    <div class="section contact" id="contact">
+        <h2>Contact</h2>
+        <div class="container">
+            <form class="contact-form" action="">
+                <div class="row">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="row">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="row">
+                    <input type="textarea" placeholder="Message">
+                </div>
+                <div class="row">
+                    <button class="btn btn-block btn-lg btn-dark submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Social Section -->
+    <div class="section social" id="social">
+        <h2>Social</h2>
+        <div class="container">
+            <a href="https://www.facebook.com/skycafephilly/"><img src="assets/icon/fb.svg" alt=""></a>
+            <a href="https://www.instagram.com/skycafephilly/"><img src="assets/icon/insta.svg" alt=""></a>
+            <a href="https://www.yelp.com/biz/sky-cafe-philadelphia-2"><img src="assets/icon/yelp.svg" alt=""></a>
+        </div>
+    </div>
+    <!-- <div>
+        <ul id="tabs" class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#t1">Tab 1</a></li>
+            <li><a class="nav link" data-toggle="tab" href="#t2">Tabs 2</a></li>
+            <li><a class="nav link" data-toggle="tab" href="#t3">Tab 3</a></li>
+            <li><a class="nav link" data-toggle="tab" href="#t4">Tab 4</a></li>
+            <li><a class="nav link" data-toggle="tab" href="#t5">Tab 5</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="t1" class="tab-pane fade in active">
+              Content 1
+            </div>
+            <div id="t2" class="tab-pane fade">
+              Content 2
+            </div>
+            <div id="t3" class="tab-pane fade">
+              Content 3
+            </div>
+            <div id="t4" class="tab-pane fade">
+                Content 4
+              </div>
+              <div id="t5" class="tab-pane fade">
+                Content 5
+              </div>
+        </div>
+    </div> -->
+    <footer>
+        <p>© 2020 Sky Cafe. All Rights Reserved.</p>
+    </footer>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD65p76_JR9AvtcCTwSSGU7n6L3YVlwg94&callback=window.initMap"></script>
+    <script src="./bundle.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
