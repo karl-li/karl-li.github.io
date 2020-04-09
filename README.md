@@ -1,2 +1,2 @@
 # karl-li.github.io
-da websitez for moi
+Dev portfolio website for Karl Li
