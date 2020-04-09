@@ -1,0 +1,295 @@
+body {
+    font-family: Avenir Next;
+    font-weight: bold;
+    font-size: 24px;
+    color: #30226D;
+}
+
+.navbar-light .navbar-toggler {
+    color: #30226D;
+}
+
+h1 {
+    font-family: Rubik Mono One;
+    font-size: 4rem;
+    color: #F7B500;
+}
+
+h2 {
+    font-family: Rubik Mono One;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #F7B500;
+    margin: 0px;
+    text-align: center;
+    background-color: #30226D;
+    padding: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+.hero-img {
+    background-image: url(img/Hero.png);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 450px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-bottom: -1px;
+    width: 100%;
+}
+
+.hero-text {
+    color: white;
+    font-weight: bold;
+    /* text-align: center;
+    line-height: 450px; */
+    position: relative;
+    /* z-index: 999; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 17%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%;
+}
+
+.nav-tabs {
+    border: none;
+    width: 100%;
+}
+
+.nav-tabs .nav-item {
+    font-weight: bold;
+    margin-bottom: -1px;
+    border-radius: 0px;
+    background-color: #D6D3E2;
+    width: 20%;
+}
+
+.nav-tabs .nav-item .nav-link {
+    text-align: center;
+    border: none;
+    color: #30226D;
+    border-radius: 0px;
+    font-size: 24px;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #EAE8F0;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background: #EAE8F0;
+}
+
+.tab-content .tab-pane {
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
+    background: white;
+    margin-bottom: -1px;
+}
+
+.owner-img {
+    width: 100%;
+}
+
+.owner-text {
+    margin: 3rem;
+}
+
+input {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.contact-form {
+    margin: 1rem;
+}
+
+.reviews, .location, .hours, .social {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social > h2 {
+    margin-bottom: 20px;
+}
+.reviews > p, .location > p, .hours > p {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.submit {
+    background: #30226D;
+    border: #30226D;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.submit:hover {
+    background: #412E94;
+    border: #412E94;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .hero-text {
+        top: 20%;
+    }
+  }
+  
+  .philly-inquirer-logo {
+      padding-bottom: 20px;
+      max-width: 50vw;
+  }
+
+  body > div.section.photos > div > div {
+      padding: 0px;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+
+  .section.social > div > a > img {
+      width: 60px;
+      height: 60px;
+  }
+
+  .skycafe-logo {
+      min-width: 40px;
+  }
+
+  h4.panel-title {
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+    font-size: 24px;
+    background-color: #D6D3E2;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+
+  h4.panel-title:hover {
+    background: #EAE8F0;
+  }
+  
+  h4.panel-title > a {
+    font-weight: bold;
+    color: #30226D;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+.column {
+    width: 20%;
+}
+
+.column > p:nth-child(1) {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .panel-body {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    color: #30226D;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #D6D3E2;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #30226D;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #EAE8F0;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  #map {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+  }
+
+  footer {
+      text-align: center;
+  }

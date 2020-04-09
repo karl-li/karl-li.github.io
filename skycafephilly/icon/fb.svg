@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/fb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/fb" fill="#30226D">
+            <path d="M25.765,46.32 L32.509,46.32 L32.509,29.998 L37.008,29.998 L37.604,24.374 L32.509,24.374 L32.516,21.558 C32.516,20.092 32.656,19.305 34.76,19.305 L37.572,19.305 L37.572,13.68 L33.072,13.68 C27.667,13.68 25.765,16.409 25.765,20.997 L25.765,24.374 L22.396,24.374 L22.396,29.999 L25.765,29.999 L25.765,46.32 L25.765,46.32 Z M30,60 C13.432,60 0,46.568 0,30 C0,13.431 13.432,0 30,0 C46.568,0 60,13.431 60,30 C60,46.568 46.568,60 30,60 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
